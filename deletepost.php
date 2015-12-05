@@ -1,7 +1,7 @@
 <?php
 	//This Script deletes posts based on given id
-	require'connect.php';
-	require'header.php';
+	require_once(__DIR__ . "/connect.php");
+	require_once(__DIR__ . "/header.php");
 	
 	// Sanitize inputs to ensure it's a number.
     $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
