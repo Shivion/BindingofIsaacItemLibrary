@@ -1,6 +1,7 @@
 <?php
 	require'header.php';
-	require'class.upload.php/class.upload.php';
+	
+	use class.upload.php;
 	
 	$t = filter_input(INPUT_GET, 't', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);

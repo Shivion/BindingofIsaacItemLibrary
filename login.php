@@ -1,6 +1,9 @@
 <?php
 	require'header.php';
-	require'phpass/PasswordHash.php';
+
+	use Hautelook\Phpass\PasswordHash;
+
+	require_once(__DIR__ . "/vendor/autoload.php");
 	
 	//get username
 	$username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
