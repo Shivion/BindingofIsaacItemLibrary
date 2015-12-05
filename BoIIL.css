@@ -1,0 +1,212 @@
+div#login{
+	margin-top:25px;
+}
+
+div#search{
+	margin-top:25px;
+}
+
+div#content{
+	margin-top:50px;
+}
+
+div.Synergy{
+	margin-left:50px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+img.inGame{
+	max-width:500px;
+	height:auto;
+}
+
+a:link{
+    color: black;
+	text-decoration:none;
+}
+
+a:hover{
+	color: black;
+	text-decoration:none;
+}
+
+a:active{
+    color: black;
+	text-decoration:none;
+}
+
+a:visited{
+    color: black;
+	text-decoration:none;
+}
+
+#delete{
+	position:relative;
+	bottom:49px;
+}
+
+label.image{
+	margin-top:25px;
+}
+
+.inline{
+	display:inline;
+}
+
+.col-md-6{
+	margin-top:15px;
+}
+
+.container{
+	margin-top:25px;
+}
+
+#logout{
+	position:relative;
+	right:25px;
+}
+
+/* OLD (CSS COMMENTS SUCK)
+
+/*Form Formatting*
+
+input{
+    display: block;
+	margin:15px 0px;
+}
+
+div#search input{
+	display:inline;
+}
+
+input[type=checkbox]{
+	display:inline;
+}
+
+#delete{
+	float:right;
+	position:relative;
+	bottom:50px;
+	right:15px;
+}
+
+label.checkbox{
+	display: inline;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+label.image{
+	display:block;
+}
+
+textarea {
+	margin:15px 0px;
+    height: 10em;
+    width: 55em;
+}
+
+/*Login Format*
+
+#login{
+	float:right;
+	position:relative;
+	bottom:110px;
+}
+
+#login input{
+	display:inline;
+}
+
+#login input.text
+{
+	width:100px;
+}
+
+/*Sorting*
+
+.sort h5{
+	margin-top:0;
+	margin-bottom:0;
+	display:inline;
+}
+
+.sort a{
+	margin-left:15px;
+	font-size:10pt;
+}
+
+div.sort{
+	position:relative;
+	bottom:15px;
+	left:5px;
+}
+
+/*Pretty much everything else*
+
+body {
+    text-align: center;
+    background: #222222;    
+}
+
+.container 
+{
+    width: 800px;
+    margin: 10px auto;
+    text-align: left;
+    border: 1px solid grey;
+    padding: 20px;
+    background: #EEEEEE;
+}
+
+a:link{
+    color: black;
+	text-decoration:none;
+}
+
+a:hover{
+	color: black;
+	text-decoration:none;
+}
+
+a:active{
+    color: black;
+	text-decoration:none;
+}
+
+a:visited{
+    color: black;
+	text-decoration:none;
+}
+
+div.Synergy{
+	background:#CCCCCC;
+	padding:5px 15px;
+	margin-bottom:10px;
+}
+
+.date{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+ul{
+	list-style-type:none;
+	padding-left:25px;
+}
+
+.title{
+	margin-bottom:0px;
+}
+
+h6.unapproved{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+img.icon{
+	display:inline;
+}
+
+*/

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "verot/class.upload.php": ">1.0",
+		"hautelook/phpass": ">1.0"
+    }
+}
