@@ -1,5 +1,5 @@
 <?php
-	require_once(__DIR__ . "/header.php");
+	require_once(__DIR__ . "/Header.php");
 	
 	// Sanitize $_GET['id'] to ensure it's a number.
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
