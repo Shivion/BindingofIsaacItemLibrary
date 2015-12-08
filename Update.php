@@ -1,7 +1,9 @@
 <?php
 	require_once(__DIR__ . "/Header.php");
 	
-	use upload;
+	//It needs this, yet warns its useless without the as upload
+	//it would still be useless like this then, w/e
+	use upload as upload;
 	
 	//get type of object? to update
 	$t = filter_input(INPUT_GET, 't', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
