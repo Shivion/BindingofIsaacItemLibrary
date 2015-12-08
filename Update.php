@@ -236,11 +236,11 @@
 									$iconStatement->execute();
 								}
 								//delete old item
-								elseif(isset($_POST[deleteIcon]))
+								elseif(isset($_POST['deleteIcon']))
 								{
-									if(file_exists('images/'.$oldIcon))
+									if(file_exists('images/'.$oldIconImage))
 									{
-										unlink('images/'.$oldIcon);
+										unlink('images/'.$oldIconImage);
 									}
 									
 									//nullify
@@ -269,7 +269,7 @@
 									$inGameStatement->bindValue(':id', $id);
 									$inGameStatement->execute();
 								}
-								elseif(isset($_POST[deleteInGame]))
+								elseif(isset($_POST['deleteInGame']))
 								{
 									if(file_exists('images/'.$oldInGameImage))
 									{
@@ -321,7 +321,7 @@
 									$imageStatement->bindValue(':id', $id);
 									$imageStatement->execute();
 								}
-								elseif(isset($_POST[deleteImage]))
+								elseif(isset($_POST['deleteImage']))
 								{
 									if(file_exists('images/'.$oldImage))
 									{
