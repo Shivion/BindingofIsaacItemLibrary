@@ -365,7 +365,7 @@
 									}
 								}
 							
-								header("Location: item.php?t=synergy&amp;id=".$id);
+								header("Location: item.php?t=synergy&id=".$id);
 							}
 							else
 							{
