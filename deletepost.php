@@ -50,7 +50,7 @@
 						$imageStatement->bindValue(':id', $id, PDO::PARAM_INT);
 						$imageStatement->execute();
 						
-						$row = $statement->fetch();
+						$row = $imageStatement->fetch();
 		
 						if(file_exists('images/'.$row['IconImage']))
 						{

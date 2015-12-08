@@ -1,7 +1,7 @@
 <?php
 	require_once(__DIR__ . "/Header.php");
 	
-	use class.upload.php;
+	use upload;
 	
 	$t = filter_input(INPUT_GET, 't', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
